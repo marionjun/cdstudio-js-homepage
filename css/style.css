@@ -121,7 +121,56 @@ a:visited {
     /* mobile */
 @media only screen and (max-width: 50rem) {
 
- 
+  .headline {
+    font-size: 2rem;
+
+	position: absolute;
+    text-align: right;
+	width: 50%;
+	height: 34vh;
+    margin-top: 29rem;
+    margin-left: 10rem;
+    margin-right: 0rem;
+    padding-right: 0rem;
+}
+
+.javascript {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    margin-right: 0rem;
+}
+
+.name {
+  width: 12%;
+font-size: 25px;
+  margin-left: 3rem;
+  margin-top: 19.3rem;
+}
+
+.line {
+  width: 350px;
+  height: 0%;
+  margin-left: 3rem;
+  margin-top: 7.2rem;
+}
+
+.nav_wrapper {
+width: 79.6%;
+height: 40px;
+font-size: 15px;
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 1rem;
+margin-left: 3rem;
+margin-top: 7.5rem;
+}
+
+.projects {
+  align-items: center;
+}
+
+
 
 
 }
